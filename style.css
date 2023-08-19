@@ -14,6 +14,7 @@ body{
     background: #06283d;
 }
 .container{
+    margin: auto;
     position: relative;
     width: 500px;
     height: 100px;
