@@ -37,7 +37,7 @@ search.addEventListener('click', ()=>{
             case 'Snow':image.src = 'images/snow.png';break;
             case 'Clouds':image.src = 'images/cloud.png';break;
             case 'Haze':image.src = 'images/mist.png';break;
-            default:image.src = '';
+            default:image.src = 'images/404.png';
         }
         
         temperature.innerHTML = `${parseInt(json.main.temp)}<span>°C</span>`;
